@@ -32,6 +32,20 @@
             
             10.恢复文件到指定的某一个版本
                 git reset --hard 版本号
+            11.生成ssh密匙
+                ssh-keygen -t rsa -C "你GitHub的注册邮箱的地址"
+            
+            windows电脑查找文件：我的电脑 => 用户 => 用户名文件夹 => .ssh(隐藏文件) => id_rsa.pub(存有密匙)
+
+            12.GitHub账户配置密匙：登录网站手动添加密匙
+
+            13.暂存区 => 远程仓库
+                git git remote add origin 仓库地址
+                    e.g.    git git remote add origin https://github.com/Dopphu/testDemo.git
+                git push -u origin master
+            【注】提交过程可能需要你输入用户名，密码。
+
+
         */
     </script>
 </head>
